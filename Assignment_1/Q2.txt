@@ -1,0 +1,26 @@
+Initial array: [8, 3, 7, 2, 5]
+
+Pass 1:
+
+    Compare 8 and 3. Swap them, as 3 is smaller. Result: [3, 8, 7, 2, 5]
+    Compare 8 and 7. Swap them, as 7 is smaller. Result: [3, 7, 8, 2, 5]
+    Compare 8 and 2. Swap them, as 2 is smaller. Result: [3, 7, 2, 8, 5]
+    Compare 8 and 5. Swap them, as 5 is smaller. Result: [3, 7, 2, 5, 8]
+
+Pass 2:
+
+    Compare 3 and 7. No swap needed. Result: [3, 7, 2, 5, 8]
+    Compare 7 and 2. Swap them, as 2 is smaller. Result: [3, 2, 7, 5, 8]
+    Compare 7 and 5. Swap them, as 5 is smaller. Result: [3, 2, 5, 7, 8]
+
+Pass 3:
+
+    Compare 3 and 2. Swap them, as 2 is smaller. Result: [2, 3, 5, 7, 8]
+    Compare 3 and 5. No swap needed. Result: [2, 3, 5, 7, 8]
+
+Pass 4:
+
+    Compare 2 and 3. No swap needed. Result: [2, 3, 5, 7, 8]
+
+Pass 5:
+No swaps needed; the array is now sorted. Result: [2, 3, 5, 7, 8]
