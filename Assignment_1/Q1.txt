@@ -1,0 +1,27 @@
+Original Array: 4, 2, 1, 5, 3
+
+First Pass:
+
+    Compare 4 and 2, swap them. Array: 2, 4, 1, 5, 3
+    Compare 4 and 1, swap them. Array: 2, 1, 4, 5, 3
+    Compare 4 and 5, no swap needed.
+    Compare 5 and 3, swap them. Array: 2, 1, 4, 3, 5
+
+Second Pass:
+
+    Compare 2 and 1, swap them. Array: 1, 2, 4, 3, 5
+    Compare 2 and 4, no swap needed.
+    Compare 4 and 3, swap them. Array: 1, 2, 3, 4, 5
+
+Third Pass:
+
+    Compare 1 and 2, no swap needed.
+    Compare 2 and 3, no swap needed.
+    Compare 3 and 4, no swap needed.
+    Compare 4 and 5, no swap needed.
+
+Fourth Pass:
+No swaps needed; the list is already sorted.
+
+Fifth Pass:
+No swaps needed; the list is already sorted.
